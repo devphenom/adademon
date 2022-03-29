@@ -47,4 +47,9 @@
   .team-col {
     flex-basis: 100%;
   }
+
+  .team-image {
+    width: 10.5rem;
+    height: 10.5rem;
+  }
 }

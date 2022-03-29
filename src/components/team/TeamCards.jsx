@@ -17,9 +17,9 @@ const TeamCards = () => {
     <div className="team-cards">
       <TeamCard animeDuration={1000} name="Larry Wright" role="Founder" image={avatar1} links={[{ type: "twitter", url: "https://twitter.com/larrywright__" }]} />
       <TeamCard animeDuration={1100} name="Leon Nicholas" role="CTO" image={avatar2} links={[{ type: "twitter", url: "https://twitter.com/Leonmartin01" }]} />
-      <TeamCard animeDuration={1200} name="Anjit Khan" role="Project Manager" image={avatar3} links={[{ type: "twitter", url: "" }]} />
-      <TeamCard animeDuration={1300} name="Marcelo Iglesias" role="Lead Engineer" image={avatar4} links={[{ type: "twitter", url: "" }]} />
-      <TeamCard animeDuration={1400} name="Ronan Ford" role="Lead Game Designer" image={avatar5} links={[{ type: "twitter", url: "" }]} />
+      <TeamCard animeDuration={1200} name="Anjit Khan" role="Project Manager" image={avatar3} />
+      <TeamCard animeDuration={1300} name="Marcelo Iglesias" role="Lead Engineer" image={avatar4} />
+      <TeamCard animeDuration={1400} name="Ronan Ford" role="Lead Game Designer" image={avatar5} />
       <TeamCard
         animeDuration={1500}
         name="Rodrigo Hernandez"

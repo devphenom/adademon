@@ -1,0 +1,13 @@
+.team {
+  min-height: 110vh;
+  padding: 160px var(--side-space) 80px;
+  background-color: white;
+}
+.team * {
+  color: var(--bg-color);
+}
+
+.team svg {
+  width: 24px;
+  height: 24px;
+}

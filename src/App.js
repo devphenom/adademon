@@ -10,6 +10,7 @@ import Tokenomics from "./pages/Tokenomics";
 import Roadmap from "./pages/Roadmap";
 import FAQ from "./pages/FAQ";
 import BuyAgony from "./pages/BuyAgony";
+import Team from "./pages/Team";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/faq" element={<FAQ />} />
             <Route path="/tokenomics" element={<Tokenomics />} />
             <Route path="/buy-$agony" element={<BuyAgony />} />
+            <Route path="/team" element={<Team />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>

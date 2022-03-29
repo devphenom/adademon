@@ -25,10 +25,7 @@ function Header() {
   return (
     <header>
       <Bounce top spy={isMenu}>
-        <nav
-          className={`${isMenu ? "show" : ""}`}
-          onClick={() => setIsMenu(false)}
-        >
+        <nav className={`${isMenu ? "show" : ""}`} onClick={() => setIsMenu(false)}>
           <ul ref={menuRef}>
             <li>
               <NavLink to="/">Home</NavLink>
@@ -48,14 +45,14 @@ function Header() {
             <li>
               <NavLink to="/buy-$agony">Buy $Agony</NavLink>
             </li>
+            <li>
+              <NavLink to="/team">Team</NavLink>
+            </li>
           </ul>
         </nav>
       </Bounce>
 
-      <div
-        className="header__toggle"
-        onClick={() => setIsMenu((prevState) => !prevState)}
-      >
+      <div className="header__toggle" onClick={() => setIsMenu((prevState) => !prevState)}>
         {isMenu === false ? <AiOutlineMenu /> : <AiOutlineClose />}
       </div>
     </header>

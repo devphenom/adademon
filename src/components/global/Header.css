@@ -24,7 +24,7 @@ header svg {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 25px;
   margin-top: 10px;
 }
 

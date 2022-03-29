@@ -1,0 +1,50 @@
+.team-col {
+  text-align: center;
+  flex-basis: 30%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-image {
+  border-radius: 50% !important;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 12.5rem;
+  width: 12.5rem;
+  margin-bottom: 2rem;
+}
+
+.team-name {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 800;
+  color: black;
+}
+
+.team-role {
+  margin: 3px auto;
+  color: black;
+}
+
+.links {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: black;
+}
+
+.links svg {
+  color: red !important;
+}
+
+@media screen and (max-width: 768px) {
+  .team-col {
+    flex-basis: 100%;
+  }
+}

@@ -1,10 +1,11 @@
 .team {
   min-height: 110vh;
   padding: 160px var(--side-space) 80px;
-  background-color: white;
-}
-.team * {
-  color: var(--bg-color);
+
+  background-image: url(../images/gameFeatures.png);
+  background-position: 100% top;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .team svg {

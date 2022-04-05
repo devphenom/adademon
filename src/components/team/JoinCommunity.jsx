@@ -28,7 +28,7 @@ const JoinCommunity = () => {
         <h2>JOIN THE COMMUNITY</h2>
       </Flash>
       <Fade>
-        <p>Learn more about Adademon, chat with the team and the community, have your say in shaping the future of decentralized finance.</p>
+        <p>Learn more about Adademon, chat with the team and the community, have your say in shaping the future of GameFi and DeFi.</p>
       </Fade>
       <Slide bottom>
         <div className="icon-container">

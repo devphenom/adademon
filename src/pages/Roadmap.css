@@ -1,5 +1,8 @@
 .roadmap {
+  padding-top: 60px;
   margin-bottom: -10px;
+  background-image: url("../images/roadmap-bg.png");
+  background-size: cover;
 }
 
 .roadmap img {

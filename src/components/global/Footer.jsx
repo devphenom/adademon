@@ -41,7 +41,7 @@ function Footer() {
               <Link to="/tokenomics">Tokenomics</Link>
             </li>
             <li>
-              <Link to="/buy-$agony">Buy $Agony</Link>
+              <a href="https://sale.adademon.com">Buy $Agony</a>
             </li>
             <li>
               <Link to="/team">Team</Link>

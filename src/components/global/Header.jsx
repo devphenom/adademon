@@ -43,7 +43,7 @@ function Header() {
               <NavLink to="/tokenomics">Tokenomics</NavLink>
             </li>
             <li>
-              <NavLink to="/buy-$agony">Buy $Agony</NavLink>
+              <a href="https://sale.adademon.com">Buy $Agony</a>
             </li>
             <li>
               <NavLink to="/team">Team</NavLink>

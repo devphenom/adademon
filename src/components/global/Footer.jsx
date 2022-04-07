@@ -43,6 +43,9 @@ function Footer() {
             <li>
               <Link to="/buy-$agony">Buy $Agony</Link>
             </li>
+            <li>
+              <Link to="/team">Team</Link>
+            </li>
           </ul>
         </div>
       </div>

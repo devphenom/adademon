@@ -1,4 +1,4 @@
 [[redirects]]
     from = "/*"
-    to = "/index.html"
+    to = "/.netlify/functions/ip-filter"
     status = 200
